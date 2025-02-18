@@ -3,18 +3,8 @@ import time
 import statistics
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-post_url = "http://18.171.9.138/chatbot/wakeb"
-post_headers = {
-    "Accept": "*/*",
-    "Accept-Encoding": "gzip, deflate",
-    "Accept-Language": "en-US,en;q=0.9,ar;q=0.8",
-    "Connection": "keep-alive",
-    "Content-Type": "application/json;charset=UTF-8",
-    "Host": "18.171.9.138",
-    "Origin": "http://mujib-plus.wakeb.tech",
-    "Referer": "http://mujib-plus.wakeb.tech/",
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
-}
+post_url = ["URL"]
+post_headers = {"Header"}
 
 payload = {
     "query": "hello"

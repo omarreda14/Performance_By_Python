@@ -1,18 +1,8 @@
 import asyncio
 import aiohttp
 
-post_url = "http://18.130.9.168/chatbot/dga"
-post_headers = {
-    "Accept": "*/*",
-    "Accept-Encoding": "gzip, deflate",
-    "Accept-Language": "en-US,en;q=0.9,ar;q=0.8",
-    "Connection": "keep-alive",
-    "Content-Type": "application/json;charset=UTF-8",
-    "Host": "18.130.9.168",
-    "Origin": "http://mujib-plus.wakeb.tech",
-    "Referer": "http://mujib-plus.wakeb.tech/",
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-}
+post_url = ["URL"]
+post_headers = {"Header"}
 
 payload = {
     "query": "اهلا"
